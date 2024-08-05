@@ -1,0 +1,38 @@
+/* Show it's not fixed to the top */
+body {
+  min-height: 75rem;
+}
+/* GENERAL*/
+.container {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+/*-------------------*/
+/* HEADER */
+header {
+  background-image: url('Images/fondo.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+/* Nav styles */
+#navbarCollapse {
+  margin: 0 2%;
+  padding: 2% 2%;
+}
+
+#ss {
+  margin: 1% 0;
+}
+
+#logo {
+  margin: 0 0 0 2%;
+}
+
+/*  */
+.col-6 {
+  text-align: center;
+  padding: 1% 0;
+}
