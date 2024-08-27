@@ -46,14 +46,30 @@
       </div>
     </nav>
     <!-- Presentation -->
-    <div class="container" id="presentation">
-      <div class="row">
-        <div class="col-6 col-sm-3">
+    <div class="container" id="presentation">     
+        <div class="row align-items-end" >
+          <div class="col">  
+           One of three columns
+          </div>
+          <div class="col">
+           One of three columns
+          </div>
+          <div class="col">
+           One of three columns
+          </div>   
+        </div>
+      
+        
+<!--
+        <div>
           <img src="https://i.ibb.co/k9mfZHV/robot1.png" alt="robot1" id="robot1" class="prerobot">
         </div>
-        <div class="col" id="presentation1">
+
+      <div class="container">
+        <div id="presentation1">
           <div>
-            <p> Agentes inteligentes, entrenados para </p>
+            <p> Agentes inteligentes,  </p>
+            <p> entrenados para</p>
           </div>
           <div id="presentation2">
             <p> solucionar  tus  ventas </p>
@@ -61,10 +77,14 @@
           </div>
           <a href="#" class="btn btn-primary" id="contratarAI">Contratar agente</a>
         </div>
-        <div class="col-6 col-sm-3">
+      </div>
+
+        <div>
           <img src="https://i.ibb.co/6m6Z98R/robot2.png" alt="robot2" id="robot2" class="prerobot">
         </div>
-      </div>
+
+      -->
+
     </div>
   </header>
   <!-- Companies -->
@@ -170,6 +190,31 @@
   </main>
   <!-- Footer -->
   <footer>
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline" id="btnAI" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!-- Scrollable modal -->
+<div class="modal-dialog modal-dialog-scrollable">
+  This is some placeholder content to show the scrolling behavior for modals. We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. When content becomes longer than the predefined max-height of modal, content will be cropped and scrollable within the modal.
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
     <div class="container">
         <div class="col" id="presentation">
           <div>

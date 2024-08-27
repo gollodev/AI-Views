@@ -12,6 +12,7 @@ body {
 .container {
   margin-top: 3%;
   margin-bottom: 5%;
+  width: 100%;
   text-align: center;
 }
 
@@ -29,7 +30,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 75vh;
+  height: 80vh;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -54,7 +55,17 @@ header {
 #presentation {
   margin: 0 0;
   padding: 1% 0;
+  
 }
+
+#rowPresentation {  
+  background-color: #f5f5f5;
+  width: 100%; 
+  height: 75vh;
+  text-align: center;
+}
+
+
 
 /* Images Robots */
 
@@ -98,17 +109,30 @@ main {
 
 /*-------------------*/
 /* FOOTER */
+/* btn AI circle*/
+#btnAI {
+  margin: 2% 4% 2% 85%;
+  border-radius: 50%;
+  position: absolute;
+  width: 125px; 
+  height: 125px;
+  background-image: url('Images/chat.png');
+  background-size: auto; 
+  border: none; 
+  background-repeat: no-repeat; 
+  background-position: center;
 
+}
 /* Image Robot */
-
 #robot3 {
   width: 50vw;
   height: auto;
 }
-
 #footerCol {
   margin-top: 5%;
 }
+
+
 
 /*---*/
 /* Width less than 769 */
