@@ -23,3 +23,13 @@ body {
     color: #8BD5FF;
   
   }  
+
+/* Explains */
+
+.accordion-button {
+  background-color: #030FC4;
+  font-family: "Montserrat", sans-serif;
+  color: #f5f5f5;
+  font-weight: 900;
+
+}
