@@ -12,10 +12,11 @@ body {
     font-family: "Poppins", sans-serif;
     color: #f5f5f5;
   }
-
-  #presentation {
+/* HEADER */
+/* Presentation of web */
+  #presentation1, #presentation2 {
     text-align: center;
-    font-size: clamp(1rem, 5vw, 2rem);
+    font-size: 3vw;
   }
   
   #presentation2 {
@@ -24,6 +25,7 @@ body {
   
   }  
 
+/*-------------------*/  
 /* MAIN */
 /* Companies */
 .companies {

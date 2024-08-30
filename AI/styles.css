@@ -16,6 +16,7 @@ body {
 /* btn */
 #contratarAI {
   background: linear-gradient(90deg, #00539F 0%, #002241 86%, #001E39 100%);
+  font-size: small;
 }
 
 
@@ -107,7 +108,7 @@ main {
 #btnAI {
   margin: 2% 4% 2% 70%;
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   width: 125px;
   height: 125px;
   background-image: url('Images/chat.png');
@@ -139,7 +140,7 @@ main {
 /*---*/
 /* Width less than 769 */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
   /* HEADER */
   #navbarCollapse {
