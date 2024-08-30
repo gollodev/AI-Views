@@ -32,9 +32,22 @@ body {
 
 /* Accordion */
 .accordion-button {
-  background-color: #030FC4;
   font-family: "Montserrat", sans-serif;
   color: #f5f5f5;
   font-weight: 700;
 
+}
+
+/*-------------------*/
+/* FOOTER */
+
+/* Nav footer */
+footer {
+  font-size: large;
+}
+
+#navFooter {
+  color: #78CEFF;
+  font-weight: 600;
+  
 }
