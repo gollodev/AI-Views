@@ -182,13 +182,14 @@ main {
 }
 
 .chat-form-container > form > .card {
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 2rem;
   width: 357px;
-  height: 412px;
+  height: 450px;
 }
 
 .chat-form-container > form > .card .agent-p {
   color: #000000;
+  font-size: 0.8rem;
   font-weight: 400;
   line-height: 18px;
 }
@@ -200,7 +201,7 @@ main {
 
 .chat-form-container > form > .card > .form-step > img {
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0.4rem;
 }
 
 .chat-form-container > form > .card .form-label {
@@ -239,4 +240,8 @@ main {
 .chat-message {
   position: absolute;
   bottom: 1.5em;
+}
+
+.content-step {
+  padding: 0 2em;
 }
